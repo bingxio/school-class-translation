@@ -8,4 +8,5 @@ QQ：1171840237 \
 [我的知乎](https://www.zhihu.com/people/mcmenjoy/activities)
 
 #### 应用截图
-![](https://github.com/turaiiao/school-class-translation/raw/master/img/1（1）.png)
+![](https://github.com/Turaiiao/school-class-translation/blob/master/img/1%20(1).png)
+![](https://github.com/Turaiiao/school-class-translation/blob/master/img/1%20(2).png)
