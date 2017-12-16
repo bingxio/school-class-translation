@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="12dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless">
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="28dp"
+            android:orientation="vertical">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:hint="@string/user_name"
+                android:singleLine="true"
+                android:textSize="18sp"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelText="@string/user_name"
+                app:met_maxCharacters="12"
+                app:met_minCharacters="2" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:hint="@string/user_pass"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:textSize="18sp"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelText="@string/user_pass"
+                app:met_maxCharacters="12"
+                app:met_minCharacters="3" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:hint="@string/user_phone"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textSize="18sp"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelText="@string/user_phone"
+                app:met_maxCharacters="11"
+                app:met_minCharacters="11" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/qq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:hint="@string/user_qq"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textSize="18sp"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelText="@string/user_qq"
+                app:met_maxCharacters="12" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/weixin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:hint="@string/user_wexin"
+                android:singleLine="true"
+                android:textSize="18sp"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelText="@string/user_wexin" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:hint="@string/user_email"
+                android:singleLine="true"
+                android:textSize="18sp"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelText="@string/user_email" />
+
+            <Button
+                android:id="@+id/register_ok"
+                style="@style/Base.Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:text="@string/register" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

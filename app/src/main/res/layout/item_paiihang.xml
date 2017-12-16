@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="0dp"
+        android:foreground="?android:attr/selectableItemBackgroundBorderless">
+
+        <RelativeLayout
+            android:layout_margin="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/position"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:textColor="#4CAF50"/>
+
+            <TextView
+                android:id="@+id/show"
+                android:text="↑"
+                android:layout_centerVertical="true"
+                android:visibility="gone"
+                android:textColor="@color/colorContentPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_toRightOf="@+id/position"
+                android:layout_marginRight="16dp"/>
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_toRightOf="@+id/show"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="16dp" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_toRightOf="@+id/image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/colorContentPrimaryDark"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

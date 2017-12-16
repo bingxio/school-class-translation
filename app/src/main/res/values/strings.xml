@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">一品微校</string>
+
+    <string name="title">搜索商品</string>
+    <string name="ok">确定</string>
+    <string name="no">取消</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+
+    <string name="user">欢迎来到一品微校</string>
+    <string name="user_name">用户名</string>
+    <string name="user_pass">密码</string>
+    <string name="user_phone">电话</string>
+    <string name="user_email">邮箱（格式必须正确）</string>
+    <string name="user_qq">QQ</string>
+    <string name="user_wexin">微信</string>
+    <string name="user_forget_pass">忘记密码 ？</string>
+    <string name="user_add">立即注册 ></string>
+
+    <string name="menu_share">分享</string>
+    <string name="menu_setting">设置</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_user">用户</string>
+
+    <string name="content_login">登录后使用更多功能</string>
+</resources>
