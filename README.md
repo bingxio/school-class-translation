@@ -10,3 +10,8 @@ QQ：1171840237 \
 #### 应用截图
 ![](https://github.com/Turaiiao/school-class-translation/blob/master/img/1%20(1).png)
 ![](https://github.com/Turaiiao/school-class-translation/blob/master/img/1%20(2).png)
+![](https://github.com/Turaiiao/school-class-translation/blob/master/img/1%20(3).png)
+![](https://github.com/Turaiiao/school-class-translation/blob/master/img/1%20(4).png)
+![](https://github.com/Turaiiao/school-class-translation/blob/master/img/1%20(5).png)
+![](https://github.com/Turaiiao/school-class-translation/blob/master/img/1%20(6).png)
+![](https://github.com/Turaiiao/school-class-translation/blob/master/img/1%20(7).png)
